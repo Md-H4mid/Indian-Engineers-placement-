@@ -4,11 +4,11 @@ from sqlalchemy import create_engine, text
 
 # --- configure your MySQL workbench ---
 db_user = "root"
-db_password = "H4MID"
+db_password = "ROOT"
 db_host = "localhost"
 db_port = "3306"
 db_name = "Campus_db"
-CSV_PATH = r"C:\Users\UNKNO\Desktop\sql and  python new project\indian_engineering_placement_2026.csv"
+CSV_PATH = r"C:\FILE LOCATION"
 
 default_database_url = f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{db_port}"
 database_url = f"{default_database_url}/{db_name}"
